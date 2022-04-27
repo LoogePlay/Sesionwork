@@ -84,3 +84,9 @@ input{
   .slider.round:before {
     border-radius: 50%;
   } 
+
+  .MainContent{
+    height: 1vh;
+    width: 1vw;
+    background: #666;
+  }
