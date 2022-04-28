@@ -86,6 +86,7 @@ input{
   } 
 
   .MainContent{
+    display: flex;
     height: 1vh;
     width: 1vw;
     background: #666;
