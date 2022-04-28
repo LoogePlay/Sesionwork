@@ -72,6 +72,12 @@ const changeTheme = ()=> {
       </label>
       </div>
       <div>
+        <label >
+          Прикрипи файл
+          <input {...register('Uploaded_file')} type="file"/>
+        </label>
+      </div>
+      <div>
       <input {...register} type="Submit" />
       </div>
       <div>
