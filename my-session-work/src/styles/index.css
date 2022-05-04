@@ -1,10 +1,9 @@
 body{
     margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 35px;
-    font-family: 'ubuntu';
+    height: 100%;
+    width: 97.7%;
+    
+    font-family: 'Comfortaa';
 }
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 .form{
@@ -87,7 +86,18 @@ input{
 
   .MainContent{
     display: flex;
-    height: 1vh;
-    width: 1vw;
+    box-sizing: border-box;
+    height: 1050px;
+    width: 102.395%;
     background: #666;
+  }
+
+  .main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(43, 42, 42);
+    box-sizing: border-box;
+    height: 912px;
+    width: 102.395%;
   }

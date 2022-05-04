@@ -4,7 +4,9 @@ import '../styles/index.css'
 function Main() {
     return (
       <div className='MainContent'>
-        123
+        <div className='Right-content'>
+          Hello world
+        </div>
     </div>
     );
   }

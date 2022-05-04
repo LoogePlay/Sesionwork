@@ -1,5 +1,8 @@
 import React from 'react';
 import '../styles/Header.scss'
+import  logo from'../Logos/Skeleton png.png'
+import  logo1 from'../Logos/PNG black fill.png'
+import  logo2 from'../Logos/PNG black skeleton.png'
 
 
 
@@ -8,11 +11,11 @@ function Header() {
     return (
       <div>
         <nav className="top-menu">
-        <a className="navbar-logo" href="/home"><img src="https://html5book.ru/wp-content/uploads/2017/04/lily-logo.png"></img></a>
+        <a className="navbar-logo" href="/home"><img src={logo1} height={'64px'} width={'64px'}></img></a>
         <ul className="menu-main">
           <li><a href="/home">Home</a></li>
           <li><a href="/login">Login</a></li>
-          <li><a href="">Story</a></li>
+          <li><a href="/order">Order</a></li>
           <li><a href="">Shop</a></li>
           <li><a href="">Gallery</a></li>
           <li><a href="">Contact</a></li>
