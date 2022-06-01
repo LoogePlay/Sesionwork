@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Sesionwork/static/css/main.b80143c0.css",
+    "main.js": "/Sesionwork/static/js/main.758ae0c7.js",
+    "static/media/2005304.jpg": "/Sesionwork/static/media/2005304.11f4f91634b4f0d99c78.jpg",
+    "static/media/PNG black skeleton.png": "/Sesionwork/static/media/PNG black skeleton.6dc6349f52588055e02f.png",
+    "static/media/Skeleton png.png": "/Sesionwork/static/media/Skeleton png.06f4c2750eb00e7bf6ec.png",
+    "static/media/PNG black fill.png": "/Sesionwork/static/media/PNG black fill.0a2b3b7f04b5b9cb3c5e.png",
+    "index.html": "/Sesionwork/index.html",
+    "main.b80143c0.css.map": "/Sesionwork/static/css/main.b80143c0.css.map",
+    "main.758ae0c7.js.map": "/Sesionwork/static/js/main.758ae0c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b80143c0.css",
+    "static/js/main.758ae0c7.js"
+  ]
+}
