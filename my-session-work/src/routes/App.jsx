@@ -1,9 +1,10 @@
-import Header from "./Header";
+import Header from "../Components/Header";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import NotFound from "./NotFound";
 import Registration from "./Registration";
 import Main from './home'
 import Order from "./just-order";
+import Footer from "../Components/footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path='*' element={<NotFound/>}/>
           </Routes>
         </Router>
+      <Footer/>
     </div>
   );
 }

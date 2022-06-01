@@ -25,7 +25,7 @@ const changeTheme = ()=> {
 }
 
   return (
-
+<div className="main-div">
     <div className="form"
     style={{background: theme.background, color: theme.textColor, outline: theme.outline}}
     >
@@ -89,7 +89,7 @@ const changeTheme = ()=> {
       </form>
    
     </div>
-  );
+</div>);
 }
 
 export default Registration;

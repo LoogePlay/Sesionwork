@@ -1,7 +1,11 @@
+*{
+    box-sizing: content-box;
+    overflow: hidden;
+}
 body{
     margin: 10px;
     height: 100%;
-    width: 97.7%;
+
     
     font-family: 'Comfortaa';
 }
@@ -88,7 +92,6 @@ input{
     display: flex;
     box-sizing: border-box;
     height: 1050px;
-    width: 102.395%;
     background: #666;
   }
 
@@ -99,5 +102,24 @@ input{
     background: rgb(43, 42, 42);
     box-sizing: border-box;
     height: 912px;
-    width: 102.395%;
+
   }
+
+.Home-content{
+    display: grid;
+    box-sizing: border-box;
+    background: url('../Logos/2005304.jpg');
+    height: 1080px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, 320px);
+}
+.Text-content{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    background: -webkit-linear-gradient(-90deg,#F19028, #232323);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 62px;
+}
